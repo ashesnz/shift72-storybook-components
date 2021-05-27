@@ -1,0 +1,38 @@
+{
+  "name": "storybook-addon-angularjs-example",
+  "version": "1.5.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook --quiet",
+    "deploy-storybook": "storybook-to-ghpages"
+  },
+  "keywords": [
+    "storybook",
+    "angularjs"
+  ],
+  "author": "Ashwin Thakur",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.8.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/runtime": "7.12.5",
+    "@storybook/addon-actions": "~6.2.9",
+    "@storybook/addon-controls": "~6.2.9",
+    "@storybook/addon-docs": "~6.2.9",
+    "@storybook/addon-knobs": "~6.2.9",
+    "@storybook/addon-storysource": "~6.2.9",
+    "@storybook/html": "~6.2.9",
+    "@storybook/storybook-deployer": "^2.8.8",
+    "babel-loader": "8.2.2",
+    "core-js": "^3.8.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "storybook-addon-angularjs": "^1.5.2"
+  }
+}
