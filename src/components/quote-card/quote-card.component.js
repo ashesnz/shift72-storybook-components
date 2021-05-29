@@ -6,6 +6,7 @@ const component = {
   template: /* HTML */ `
     <blockquote class="card" ng-click="$ctrl.onClick({foo:'bar'})">
       <p class="content" ng-transclude></p>
+      <button class="btn  ring-pinned-shadow-color">Hello</button>
       <cite>
         {{$ctrl.author}}
       </cite>
